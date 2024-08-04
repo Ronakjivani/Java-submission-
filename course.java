@@ -72,14 +72,14 @@ public class CourseEnrollment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Create courses
+        
         Course course1 = new Course(1, "Introduction to Computer Science", 3);
         Course course2 = new Course(2, "COA", 4);
         Course course3 = new Course(3, "Maths", 3);
 
         Course[] courseCatalog = {course1, course2, course3};
 
-        // Create enrollment
+    
         Enrollment enrollment = new Enrollment(101, 3);
 
         while (true) {
